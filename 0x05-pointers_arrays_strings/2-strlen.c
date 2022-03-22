@@ -12,7 +12,7 @@ int _strien(char *s)
 int u;
 
 u = 0;
-while (s[u] != '
+while (s[u] != '\0')
 {
 u++;
 }
