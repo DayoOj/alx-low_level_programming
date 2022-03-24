@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *reverse the content of an array of an integers
+ * reverse the content of an array of an integers
  * @a: an array of integers
  * @n: number of elements of the array
  * Return: return void
@@ -35,5 +35,5 @@ c = *end_c;
 start_c++;
 end_c--;
 }
-return (0);
+
 }
