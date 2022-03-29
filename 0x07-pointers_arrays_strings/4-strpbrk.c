@@ -6,12 +6,12 @@
  * @accept: string to check against
  *
  * Return: pointer to bytes in s that matches or NULL if no matches
- *
+ */
 char *_strpbrk(char *s, char *accept)
 {
 unsigned int i, j;
 
-for (i = 0; accept[j]; j++)
+for (i = 0; s[i]; i++)
 {
 for (j = 0; accept[j]; j++)
 {
