@@ -21,5 +21,5 @@ break;
 if (!accept[j])
 break;
 }
-return (j);
+return (i);
 }
